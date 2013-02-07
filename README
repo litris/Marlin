@@ -17,3 +17,13 @@ Code in the Slave directory is under development.  This will drive a slave
 controller (with the core Marlin code on the master controller) to control
 multiple extruders.
 
+
+Salvador Lario (litris)
+
+Marlin Ramps 1.4 for u32PTU RepRap Touch TFT LCD (mini pronterface style)
+
+Colocar el final de carrera del z-min en Y-max y la pantalla se conecta en:
+TX LCD ---> RX1 Ramps 1.4 Z-max.
+RX LCD ---> TX1 Ramps 1.4 Z-min.
++ LCD ---> + Ramps 1.4 Z-min
+- LCD ---> - Ramps 1.4 Z-min
